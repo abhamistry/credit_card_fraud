@@ -13,7 +13,7 @@ st.image("images.jpg")
 
 
 input_df = st.text_input("Please provide all the required feature details: ")
-input_df_split = input_df.split(',')
+input_df_split = input_df.split(', ')
 
 submit = st.button("Submit")
 
